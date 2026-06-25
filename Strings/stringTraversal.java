@@ -1,3 +1,4 @@
+package Strings;
 public class stringTraversal {
     public static boolean isVowel(char ch){
         ch = Character.toLowerCase(ch);
