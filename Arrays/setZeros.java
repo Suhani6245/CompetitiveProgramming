@@ -1,3 +1,4 @@
+package Arrays;
 public class setZeros {
     // public static void setZeroes(int[][] matrix, int row, int col){
         

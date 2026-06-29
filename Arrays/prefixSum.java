@@ -1,4 +1,4 @@
-
+package Arrays;
 public class prefixSum {
     public static int[][] prefixSum2D(int[][] arr) {
         int rows = arr.length;

@@ -1,3 +1,4 @@
+package Arrays;
 public class rotateAndReverse {
     public static int[] rightRotate(int[] arr, int k){
         if(k==0) return arr;
