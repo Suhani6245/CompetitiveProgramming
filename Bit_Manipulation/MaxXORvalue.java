@@ -1,6 +1,6 @@
 package Bit_Manipulation;
 
-public class MaxXORValue {
+public class MaxXORvalue {
     public static void main(String[] args) {
         int[] arr = { 4, 8, 12, 16, 20 };
 

@@ -1,5 +1,5 @@
 package Sorting_algo;
-import java.util.Arrays;
+
 
 public class MergeSort {
 
