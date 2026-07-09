@@ -14,13 +14,21 @@ public class ContainsDuplicate {
         // }
         // return false;
 
-        HashMap<Integer,Integer> map = new HashMap<>();
+        // HashMap<Integer,Integer> map = new HashMap<>();
+        // for(int i=0; i<nums.length; i++){
+        //     map.put(nums[i],map.getOrDefault(nums[i],0)+1);
+        //     if(map.get(nums[i])>1) return true;
+        // }
+        // return false;
+
+        
+        //hashset
+        Set<Integer> seen = new HashSet<>();
         for(int i=0; i<nums.length; i++){
-            map.put(nums[i],map.getOrDefault(nums[i],0)+1);
-            if(map.get(nums[i])>1) return true;
+            if(seen.contains(nums[i])) return true;
+            seen.add(nums[i]);
         }
         return false;
-
 
     }
 
